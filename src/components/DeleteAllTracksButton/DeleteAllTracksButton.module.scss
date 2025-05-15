@@ -1,0 +1,15 @@
+.deleteAllTracksBtn{
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  background-color: #ff4d4f;
+  color: #ffffff;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px  #ff4d4f;
+    border: none;
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+}

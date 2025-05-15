@@ -1,0 +1,26 @@
+.volumeWrapper {
+  border-radius: 8px;
+  display: flex;
+  max-width: 200px;
+  align-items: center;
+  background: #1a1a1a;
+
+  @media (max-width: 768px) {
+    max-width: 150px;
+  }
+}
+
+.disabled {
+  opacity: 0.6;
+}
+
+.volumeInput {
+  opacity: 0;
+  width: 0;
+}
+
+.volumeInput.active {
+  opacity: 1;
+  width: 100%;
+  margin: 0 0.7rem;
+}

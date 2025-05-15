@@ -1,0 +1,18 @@
+.playerDuration {
+  width: 110px;
+  background: #1a1a1a;
+  padding: 0.5em 1em;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media (max-width: 768px) {
+    width: 90px;
+    padding: 0.5em;
+  }
+}
+
+.disabled{
+  opacity: .6;
+}

@@ -1,0 +1,35 @@
+.trackList{
+  padding: 1.2rem 1.5rem;
+  margin-top: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+
+  ul{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+
+    @media (max-width: 767.98px) {
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: stretch;
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    padding: .7rem 1rem;
+  }
+
+  @media (max-width: 479.98px) {
+    padding: .5rem .4rem;
+  }
+}
+
+.emptyListMsg{
+  flex: 1 1 100%;
+  margin-top: 20px;
+  color: #28a745;
+  font-size: 1.7rem;
+  font-weight: 700;
+}

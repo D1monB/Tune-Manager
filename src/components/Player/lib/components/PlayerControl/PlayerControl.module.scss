@@ -1,0 +1,32 @@
+.playerControl {
+  max-width: max-content;
+  padding: 1em 1.6rem;
+  border-radius: 18px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-weight: 600;
+  align-items: center;
+  gap: 15px;
+  display: flex;
+  justify-content: center;
+
+  & > * {
+    min-height: 48px;
+  }
+
+  img {
+    width: 40px;
+    height: 30px;
+  }
+
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @media (max-width: 768px) {
+    padding: 0.8em 1.2rem;
+    gap: 12px;
+  }
+}

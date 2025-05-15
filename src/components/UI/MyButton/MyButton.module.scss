@@ -1,0 +1,35 @@
+.button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.5em 1rem;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+
+  &:hover {
+    border-color: #646cff;
+  }
+
+  &:focus,
+  &:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+
+  &:disabled{
+    opacity: .6;
+  }
+}
+
+.primary{
+  background: #1a1a1a;
+}
+
+.light-green{
+  background: linear-gradient(135deg, #00c853, #98db6e);
+}
+
+.ghost{
+  background: none;
+}
